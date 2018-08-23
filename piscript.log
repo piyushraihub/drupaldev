@@ -1,0 +1,405 @@
+[06:16:49] Post install script started 03/13/2018
+[06:16:49] Upgrade:0
+[06:16:49] Install D:\CCH/common/cfgbox/AcquiaDevDesktop/dynamic.xml to D:\CCH/AcquiaDevDesktop/dynamic.xml. Flags: 2
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/AcquiaDevDesktop/dynamic.xml"
+[06:16:49] Install D:\CCH/common/cfgbox/AcquiaDevDesktop/static.ini to D:\CCH/AcquiaDevDesktop/static.ini. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/AcquiaDevDesktop/static.ini"
+[06:16:49] Install D:\CCH/common/cfgbox/apache/conf/httpd.conf to D:\CCH/apache/conf/httpd.conf. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/apache/conf/httpd.conf"
+[06:16:49] Install D:\CCH/common/cfgbox/apache/conf/vhosts.conf to D:\CCH/apache/conf/vhosts.conf. Flags: 2
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/apache/conf/vhosts.conf"
+[06:16:49] Install D:\CCH/common/cfgbox/tools/composer.bat to D:\CCH/tools/composer.bat. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/tools/composer.bat"
+[06:16:49] Install D:\CCH/common/cfgbox/tools/drush.bat to D:\CCH/tools/drush.bat. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/tools/drush.bat"
+[06:16:49] Install D:\CCH/common/cfgbox/tools/pipelines.bat to D:\CCH/tools/pipelines.bat. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/tools/pipelines.bat"
+[06:16:49] Install D:\CCH/common/cfgbox/mysql/my.cnf to D:\CCH/mysql/my.cnf. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/mysql/my.cnf"
+[06:16:49] Install D:\CCH/common/cfgbox/mysql/bin/mysql.cmd to D:\CCH/mysql/bin/mysql.cmd. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/mysql/bin/mysql.cmd"
+[06:16:49] Install D:\CCH/common/cfgbox/php5_3/php.ini to D:\CCH/php5_3/php.ini. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/php5_3/php.ini"
+[06:16:49] Install D:\CCH/common/cfgbox/php5_4/php.ini to D:\CCH/php5_4/php.ini. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/php5_4/php.ini"
+[06:16:49] Install D:\CCH/common/cfgbox/php5_5/php.ini to D:\CCH/php5_5/php.ini. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/php5_5/php.ini"
+[06:16:49] Install D:\CCH/common/cfgbox/php5_6/php.ini to D:\CCH/php5_6/php.ini. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/php5_6/php.ini"
+[06:16:49] Install D:\CCH/common/cfgbox/php7_0/php.ini to D:\CCH/php7_0/php.ini. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/php7_0/php.ini"
+[06:16:49] Install D:\CCH/common/cfgbox/php7_1/php.ini to D:\CCH/php7_1/php.ini. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/php7_1/php.ini"
+[06:16:49] Install D:\CCH/common/cfgbox/phpmyadmin/config.inc.php to D:\CCH/phpmyadmin/config.inc.php. Flags: 1
+[06:16:49] Making substitutions in "D:\CCH/common/cfgbox/phpmyadmin/config.inc.php"
+[06:16:49] SubstituteConfigVars() - Setup vars:SetupVars Object
+(
+    [APACHE_DOCROOT] => D:\CCH
+    [APACHE_PORT] => 8083
+    [APACHE_PORT_HTTPS] => 8443
+    [MYSQL_PORT] => 33067
+    [DB_USERNAME] => drupaluser
+    [INSTALL_DIR] => D:\CCH
+    [INSTALL_DIR_UNIX_FMT] => D:/CCH
+    [PLATFORM_NAME] => windows
+    [AD_VER] => 2-2017-11-13
+    [SYS_USER] => salam6
+    [UPGRADE] => 
+    [TEMP_DIR] => C:\Users\salam6\AppData\Local\Temp
+    [TIMEZONE] => UTC
+    [ENABLE_TRACKING] => 1
+    [_upgCtx] => 
+)
+
+
+[06:16:49] Making substitutions in "D:\CCH/MasterLicense.txt"
+[06:16:49] Making substitutions in "D:\CCH/phpmyadmin/config.inc.php"
+[06:16:49] Making substitutions in "D:\CCH/mysql/my.cnf"
+[06:16:49] Updating pipelines client
+[06:16:49] Exec:"D:\CCH/tools/pipelines" self-update
+[06:17:21] Exec result: 1 
+STDOUT: 
+STDERR:
+                                                                                                                                                         
+  [Humbug\SelfUpdate\Exception\HttpRequestException]                                                                                                     
+  Download file appears to be corrupted or outdated. The file received does not have the expected SHA-1 hash: 482a9573fc95ccad3ca9f90d9db65ad8e630eafb.  
+                                                                                                                                                         
+
+self-update [--rollback] [--force] [-h|--help] [-q|--quiet] [-v|vv|vvv|--verbose] [-V|--version] [--ansi] [--no-ansi] [-n|--no-interaction] [--] <command>
+
+
+[06:17:21] Failed to update pipelines client
+[06:17:21] Renaming D:\CCH/mysql/data.init to D:\CCH/mysql/data
+[06:17:21] Exec:"D:\CCH\xmail\XMail.exe" --install-auto
+[06:17:22] Exec result: 0 
+STDOUT:XMail Server installed.
+ 
+STDERR:
+[06:17:22] Exec:reg add HKLM\Software\GNU\XMail /f /v MAIL_ROOT /t REG_MULTI_SZ /d "D:\CCH\xmail\MailRoot"
+[06:17:22] Exec result: 0 
+STDOUT:The operation completed successfully.
+ 
+STDERR:
+[06:17:22] Exec:reg add HKLM\Software\GNU\XMail /f /v MAIL_CMD_LINE /t REG_MULTI_SZ /d "-P- -B- -X- -Y- -F- -Mx 3"
+[06:17:23] Exec result: 0 
+STDOUT:The operation completed successfully.
+ 
+STDERR:
+[06:17:23] Exec:net start XMail
+[06:17:25] Exec result: 0 
+STDOUT:The XMail Server service is starting.
+The XMail Server service was started successfully.
+
+ 
+STDERR:
+[06:17:25] Post install script completed successfully
+11:47:38: === Started on: 2018-03-13 | Ver: 2 | Built: Nov 13 2017 17:32:53 | CpRev: 9570d92 | StRev: 130fff0 | OS: Windows 7 (build 7601, Service Pack 1), 64-bit edition ===
+11:47:38: DD binary: d:\cch\acquiadevdesktop\acquiadevdesktop2.exe
+11:47:38: Environment:
+=C:=C:\Users\salam6\AppData\Roaming\IDM
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\salam6\AppData\Roaming
+COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=DELSALAM674123
+COMSPEC=C:\windows\system32\cmd.exe
+DEVDESKTOP_DRUPAL_SETTINGS_DIR=$HOME/.acquia/DevDesktop/DrupalSettings
+DOCKER_TOOLBOX_INSTALL_PATH=C:\Program Files\Docker Toolbox
+FP_NO_HOST_CHECK=NO
+HOME=C:\Users\salam6
+HOMEDRIVE=C:
+HOMEPATH=\Users\salam6
+LC_NUMERIC=C
+LOCALAPPDATA=C:\Users\salam6\AppData\Local
+LOGONSERVER=\\DLUADS1
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;d:\xampp\mysql\bin;C:\HashiCorp\Vagrant\bin;C:\xampp\php;C:\composer;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Users\salam6\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Docker Toolbox;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3d04
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES=C:\Program Files (x86)
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMW6432=C:\Program Files
+PSMODULEPATH=C:\windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\windows
+TEMP=C:\Users\salam6\AppData\Local\Temp
+TMP=C:\Users\salam6\AppData\Local\Temp
+UATDATA=C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN=sapient.com
+USERDOMAIN=SAPIENT
+USERNAME=salam6
+USERPROFILE=C:\Users\salam6
+VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+WINDIR=C:\windows
+
+11:47:38: acqPersonalData created. Data dir: C:\Users\salam6\.acquia\DevDesktop
+11:47:38: Initialize MySQL
+11:47:38: Load mysql dll: D:\CCH\mysql\lib\libmysql.dll
+11:47:38: Initialize site manager
+11:47:38: acqSiteManager created.
+11:47:38: CCUtil::ExecEx() cmd:D:\CCH\common\msys\bin\gui-ssh-agent.exe
+Args: -b C:\Users\salam6\.acquia\DevDesktop\ssh-agent-params.bat 
+11:47:39: Create main window
+11:47:39: Start IPC server. (d:\cch\acquiadevdesktop\acquiadevdesktop2.exe)
+11:47:39: CCUtil::ExecEx() cmd:D:\CCH\tools\drush.bat
+Args: cc drush 
+11:47:39: IPC server started. Name:ADCP-6b2bbd8d49d4964dae5b4c6d313cca04
+11:47:39: Server uses DDE
+11:47:40: iid:f2981111-2719-4c99-af22-1bca06a16671 eid:0 cid:0
+11:47:40: acqSvcController::StartSvc() SvcId:0 CurSt:notR
+11:47:40: acqServerProcessBase::InitiateStart()
+EXEC: D:\CCH\apache\bin\httpd.exe
+ARG: -D php5_5 -D php_fcgi -C SetEnv DEVDESKTOP_DRUPAL_SETTINGS_DIR 'C:\Users\salam6\.acquia\DevDesktop\DrupalSettings' -f D:\CCH\apache\conf\httpd.conf
+ENV: ="C:=C:\Users\salam6\AppData\Roaming\IDM" ALLUSERSPROFILE="C:\ProgramData" APPDATA="C:\Users\salam6\AppData\Roaming" COMMONPROGRAMFILES="C:\Program Files (x86)\Common Files" COMMONPROGRAMFILES(X86)="C:\Program Files (x86)\Common Files" COMMONPROGRAMW6432="C:\Program Files\Common Files" COMPUTERNAME="DELSALAM674123" COMSPEC="C:\windows\system32\cmd.exe" DEVDESKTOP_DRUPAL_SETTINGS_DIR="$HOME/.acquia/DevDesktop/DrupalSettings" DOCKER_TOOLBOX_INSTALL_PATH="C:\Program Files\Docker Toolbox" FP_NO_HOST_CHECK="NO" HOME="C:\Users\salam6" HOMEDRIVE="C:" HOMEPATH="\Users\salam6" LC_NUMERIC="C" LOCALAPPDATA="C:\Users\salam6\AppData\Local" LOGONSERVER="\\DLUADS1" NUMBER_OF_PROCESSORS="4" OS="Windows_NT" PATH="D:\CCH\php5_5;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;d:\xampp\mysql\bin;C:\HashiCorp\Vagrant\bin;C:\xampp\php;C:\composer;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Users\salam6\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Docker Toolbox;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\" PATHEXT=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" PROCESSOR_ARCHITECTURE="x86" PROCESSOR_ARCHITEW6432="AMD64" PROCESSOR_IDENTIFIER="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" PROCESSOR_LEVEL="6" PROCESSOR_REVISION="3d04" PROGRAMDATA="C:\ProgramData" PROGRAMFILES="C:\Program Files (x86)" PROGRAMFILES(X86)="C:\Program Files (x86)" PROGRAMW6432="C:\Program Files" PSMODULEPATH="C:\windows\system32\WindowsPowerShell\v1.0\Modules\" PUBLIC="C:\Users\Public" SESSIONNAME="Console" SYSTEMDRIVE="C:" SYSTEMROOT="C:\windows" TEMP="C:\Users\salam6\AppData\Local\Temp" TMP="C:\Users\salam6\AppData\Local\Temp" UATDATA="C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77" USERDNSDOMAIN="sapient.com" USERDOMAIN="SAPIENT" USERNAME="salam6" USERPROFILE="C:\Users\salam6" VBOX_MSI_INSTALL_PATH="C:\Program Files\Oracle\VirtualBox\" WINDIR="C:\windows"
+11:47:42: drush cc drush ok
+11:47:43: acqSvcController::StartSvc() SvcId:1 CurSt:notR
+11:47:43: acqServerProcessBase::InitiateStart()
+EXEC: D:\CCH\mysql\bin\mysqld.exe
+ARG: --defaults-file=D:\CCH\mysql\my.cnf
+ENV:
+11:48:08: Logging in to Cloud. email:salam6@sapient.com
+11:48:11: Cloud returned error. HTTP:401, body:{"time":"2018-03-13 06:18:10 +0000","message":"Not authorized"}
+11:48:11: Error: Exception: [.\cloud_api.cpp:471] Please enter a valid email address and password for your Acquia Cloud account.
+11:48:20: Logging in to Cloud. email:salam6@sapient.com
+11:48:22: acqCloudApi::LoadAllCloudSubs()
+11:48:22: Getting subscription list
+11:48:22: CloudApi [GET_] sites
+11:48:24: Loading devcloud:citi
+11:48:24: All user subscriptions: devcloud:citi devcloud:nest enterprise-g1:sapient1
+11:48:24: CloudApi [GET_] sites/devcloud:citi
+11:48:27: CloudApi [GET_] sites/devcloud:citi/envs
+11:48:28: CloudApi [GET_] /sites/devcloud:citi/envs/dev/domains
+11:48:30: CloudApi [GET_] /sites/devcloud:citi/envs/test/domains
+11:48:31: Loading devcloud:nest
+11:48:31: CloudApi [GET_] sites/devcloud:nest
+11:48:33: CloudApi [GET_] sites/devcloud:nest/envs
+11:48:34: CloudApi [GET_] /sites/devcloud:nest/envs/dev/domains
+11:48:36: CloudApi [GET_] /sites/devcloud:nest/envs/test/domains
+11:48:38: Loading enterprise-g1:sapient1
+11:48:38: CloudApi [GET_] sites/enterprise-g1:sapient1
+11:48:39: CloudApi [GET_] sites/enterprise-g1:sapient1/envs
+11:48:41: CloudApi [GET_] /sites/enterprise-g1:sapient1/envs/01dev/domains
+11:48:42: CloudApi [GET_] /sites/enterprise-g1:sapient1/envs/01devup/domains
+11:48:44: CloudApi [GET_] /sites/enterprise-g1:sapient1/envs/01live/domains
+11:48:45: CloudApi [GET_] /sites/enterprise-g1:sapient1/envs/01test/domains
+11:48:47: CloudApi [GET_] /sites/enterprise-g1:sapient1/envs/01testup/domains
+11:48:49: CloudApi [GET_] /sites/enterprise-g1:sapient1/envs/01update/domains
+11:48:50: Done loading subscription list.
+11:48:50: Update subscriptions in datamodel with the data from Cloud
+11:48:50: iid:f2981111-2719-4c99-af22-1bca06a16671 eid:0 cid:6dfd38a7ac6315f30e0adc0e97359e9a
+11:48:55: Open URL in browser:'https://insight.acquia.com/node/uuid/9e8e5748-fe8b-42ff-a73e-5447647e9bf3/cloud/workflow'
+11:49:28: acqSshConnection::BasicConnect() free-7230.devcloud.hosting.acquia.com:22
+11:49:31: read PEM private key done: type RSA
+11:49:32: CloudApi [GET_] sites/devcloud:citi
+11:49:33: CloudApi [GET_] sites/devcloud:citi/envs
+11:49:35: CloudApi [GET_] /sites/devcloud:citi/envs/dev/domains
+11:49:36: CloudApi [GET_] /sites/devcloud:citi/envs/test/domains
+11:49:38: OpenTerminal() command: SET SSH_AUTH_SOCK=/tmp/ssh-lswmz14612/agent.14612 && "D:\CCH\common\msys\bin\ssh.exe" -p 22 -o StrictHostKeyChecking=no -o UserKnownHostsFile=nul  citi.dev@free-7230.devcloud.hosting.acquia.com
+11:50:15: Open URL in browser:'http://localhost:8083/phpmyadmin/index.php'
+11:50:48: Open Settings dialog
+11:50:54: Open local console. dir:D:\CCH php_id:php5_5
+11:50:54: OpenTerminal() command: SET SSH_AUTH_SOCK=/tmp/ssh-lswmz14612/agent.14612 && SET PHP_ID=php5_5 && SET PATH=D:\CCH\php5_5;D:\CCH\mysql\bin;D:\CCH\tools;%PATH% && cd "D:\CCH"
+11:51:33: CloudApi [GET_] me
+11:51:35: CloudApi [GET_] sites/devcloud:citi
+11:51:36: CloudApi [GET_] sites/devcloud:citi/envs
+11:51:38: CloudApi [GET_] /sites/devcloud:citi/envs/dev/domains
+11:51:39: CloudApi [GET_] /sites/devcloud:citi/envs/test/domains
+11:51:49: mysql connect. host:127.0.0.1 port:33067 user:root
+11:51:49: Run SQL: SHOW DATABASES LIKE 'citi_test'
+11:51:49: acqSshConnection::BasicConnect() free-7230.devcloud.hosting.acquia.com:22
+11:51:52: Import site from Acquia Cloud
+11:51:52: acqCommandCodebaseInitFromCloud. cbInit = (
+  localPath = D:\CCH\citi-test
+  phpNum = 10000
+  site = (
+    siteName = 
+    siteHost = citi.test.dd
+    parts = (
+      code = true
+      database = true
+      files = true
+    )
+    dbImport = (
+      name = citi_test
+      prefix = (
+        srcType = [
+          default = 
+        ]
+      )
+      dumpFile = 0
+      oldName = 
+      connProtocol = 
+      connStr = 1
+      port = localhost
+      user = 3306
+      pass = 
+      sanitize = 
+       = false
+    )
+  )
+) 
+From: devcloud:citi
+CloudEnv = (
+  parent = 005883E0
+  name = test
+  vcsPath = tags/2018-03-12.0
+  sshHost = free-7230.devcloud.hosting.acquia.com
+  defaultDomain = citihoplfergh9.devcloud.acquia-sites.com
+  domains = [
+    0 = citihoplfergh9.devcloud.acquia-sites.com
+  ]
+)
+11:51:52: Checking out the site codebase from Git...
+11:55:31: acqSshConnection::BasicConnect() free-7230.devcloud.hosting.acquia.com:22
+11:55:37: acqSshConnection::Exec() drush8 -r /var/www/html/citi.test/docroot -l default sql-conf --format=json
+11:55:42: Registering site in Dev Desktop...
+11:55:42: Adopt codebase: codebase = (
+  parent = 00000000
+  uuid = 875ce08c-48c8-41b6-98b1-79666cea7e58
+  codebaseRoot = D:\CCH\citi-test
+  docRoot = D:\CCH\citi-test\docroot
+  phpNum = 10000
+  cloudSiteName = devcloud:citi
+  cloudEnvName = test
+  sites = [
+    0 = (
+      parent = 0613F7C0
+      name = default
+      host = citi.test.dd
+      dbName = citi_test
+      dbPrefix = (
+        cloudConnected = [
+          default = 
+        ]
+      )
+      enabled = true
+       = true
+    )
+  ]
+)
+11:55:42: mysql connect. host:127.0.0.1 port:33067 user:root
+11:55:42: mysql connect. host:127.0.0.1 port:33067 user:root
+11:55:42: Run SQL: SHOW DATABASES LIKE 'citi_test'
+11:55:42: mysql connect. host:127.0.0.1 port:33067 user:root
+11:55:42: Run SQL: CREATE DATABASE `citi_test`
+11:55:42: Run SQL: SET sql_mode = ''
+11:55:42: Run SQL: GRANT ALL PRIVILEGES ON `citi_test`.* TO `drupaluser`@'localhost' IDENTIFIED BY ''
+11:55:42: Run SQL: GRANT ALL PRIVILEGES ON `citi_test`.* TO `drupaluser`@'127.0.0.1' IDENTIFIED BY ''
+11:55:42: Run SQL: FLUSH PRIVILEGES
+11:55:42: Synchronizing files...
+11:55:42: Syncronizing files for Site = (
+  parent = 005B1B58
+  name = default
+  host = citi.test.dd
+  dbName = citi_test
+  dbPrefix = (
+    cloudConnected = [
+      default = 
+    ]
+  )
+  enabled = true
+   = true
+)
+11:55:42: acqSshConnection::BasicConnect() free-7230.devcloud.hosting.acquia.com:22
+11:55:47: CCUtil::ExecEx() cmd:D:\CCH\common\msys\bin\rsync.exe
+Args: -e "\"/D/CCH/common/msys/bin/ssh.exe\" -F /dev/null -p 22 -o UserKnownHostsFile=nul -o StrictHostKeyChecking=no" -az --delete citi.test@free-7230.devcloud.hosting.acquia.com:/mnt/files/citi.test/sites/default/files/ . 
+11:59:10: CCUtil::ExecEx() cmd:D:\CCH\common\msys\bin\rsync.exe
+Args: -e "\"/D/CCH/common/msys/bin/ssh.exe\" -F /dev/null -p 22 -o UserKnownHostsFile=nul -o StrictHostKeyChecking=no" -az --delete citi.test@free-7230.devcloud.hosting.acquia.com:/mnt/files/citi.test/files/ . 
+11:59:16: Synchronizing the site database...
+11:59:16: Syncronize database. Site = (
+  parent = 005B1B58
+  name = default
+  host = citi.test.dd
+  dbName = citi_test
+  dbPrefix = (
+    cloudConnected = [
+      default = 
+    ]
+  )
+  enabled = true
+   = true
+)
+11:59:16: Creating sql dump file...
+11:59:16: acqSshConnection::BasicConnect() free-7230.devcloud.hosting.acquia.com:22
+11:59:19: acqSshConnection::Exec() drush8 --yes --uri=default --root=/var/www/html/citi.test/docroot sql-dump --result-file=/mnt/tmp/citi.test/dev_desktop_citi.sql --gzip
+11:59:22: Transfering sql dump file...
+11:59:22: acqSshConnection::BasicConnect() free-7230.devcloud.hosting.acquia.com:22
+11:59:25: acqSshConnection::SftpTransferFile() Direction:down Local:C:\Users\salam6\AppData\Local\Temp\acqTmp-2018-03-13T11.59.16-4161\dump.sql.gz Remote:/mnt/tmp/citi.test/dev_desktop_citi.sql.gz
+11:59:36: Removing old database...
+11:59:36: mysql connect. host:127.0.0.1 port:33067 user:root
+11:59:36: Run SQL: SHOW DATABASES LIKE 'citi_test'
+11:59:36: mysql connect. host:127.0.0.1 port:33067 user:root
+11:59:36: Run SQL: SHOW DATABASES LIKE 'citi_test'
+11:59:36: Run SQL: DROP DATABASE `citi_test`
+11:59:36: mysql connect. host:127.0.0.1 port:33067 user:root
+11:59:36: Run SQL: CREATE DATABASE `citi_test`
+11:59:36: Run SQL: SET sql_mode = ''
+11:59:36: Run SQL: GRANT ALL PRIVILEGES ON `citi_test`.* TO `drupaluser`@'localhost' IDENTIFIED BY ''
+11:59:36: Run SQL: GRANT ALL PRIVILEGES ON `citi_test`.* TO `drupaluser`@'127.0.0.1' IDENTIFIED BY ''
+11:59:36: Run SQL: FLUSH PRIVILEGES
+11:59:36: Importing sql dump file...
+11:59:36: Load dump C:\Users\salam6\AppData\Local\Temp\acqTmp-2018-03-13T11.59.16-4161\dump.sql.gz (1373034 bytes) into local database citi_test
+11:59:36: CCUtil::ExecEx() cmd:D:\CCH\mysql\bin\mysql.exe
+Args: --protocol=tcp --host=localhost -P33067 -uroot citi_test 
+12:00:44: CCUtil::ExecEx() cmd:D:\CCH\tools\drush.bat
+Args: cache-rebuild -l default 
+12:01:13: Getting drush integration data...
+12:01:13: CloudApi [GET_] me/drushrc
+12:01:15: Restarting Apache web server...
+12:01:16: acqServerProcessBase::InitiateStart()
+EXEC: D:\CCH\apache\bin\httpd.exe
+ARG: -D php5_5 -D php_fcgi -C SetEnv DEVDESKTOP_DRUPAL_SETTINGS_DIR 'C:\Users\salam6\.acquia\DevDesktop\DrupalSettings' -f D:\CCH\apache\conf\httpd.conf
+ENV: ="C:=C:\Users\salam6\AppData\Roaming\IDM" ALLUSERSPROFILE="C:\ProgramData" APPDATA="C:\Users\salam6\AppData\Roaming" COMMONPROGRAMFILES="C:\Program Files (x86)\Common Files" COMMONPROGRAMFILES(X86)="C:\Program Files (x86)\Common Files" COMMONPROGRAMW6432="C:\Program Files\Common Files" COMPUTERNAME="DELSALAM674123" COMSPEC="C:\windows\system32\cmd.exe" DEVDESKTOP_DRUPAL_SETTINGS_DIR="$HOME/.acquia/DevDesktop/DrupalSettings" DOCKER_TOOLBOX_INSTALL_PATH="C:\Program Files\Docker Toolbox" FP_NO_HOST_CHECK="NO" HOME="C:\Users\salam6" HOMEDRIVE="C:" HOMEPATH="\Users\salam6" LC_NUMERIC="C" LOCALAPPDATA="C:\Users\salam6\AppData\Local" LOGONSERVER="\\DLUADS1" NUMBER_OF_PROCESSORS="4" OS="Windows_NT" PATH="D:\CCH\php5_5;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;d:\xampp\mysql\bin;C:\HashiCorp\Vagrant\bin;C:\xampp\php;C:\composer;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Users\salam6\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Docker Toolbox;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\" PATHEXT=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" PROCESSOR_ARCHITECTURE="x86" PROCESSOR_ARCHITEW6432="AMD64" PROCESSOR_IDENTIFIER="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" PROCESSOR_LEVEL="6" PROCESSOR_REVISION="3d04" PROGRAMDATA="C:\ProgramData" PROGRAMFILES="C:\Program Files (x86)" PROGRAMFILES(X86)="C:\Program Files (x86)" PROGRAMW6432="C:\Program Files" PSMODULEPATH="C:\windows\system32\WindowsPowerShell\v1.0\Modules\" PUBLIC="C:\Users\Public" SESSIONNAME="Console" SYSTEMDRIVE="C:" SYSTEMROOT="C:\windows" TEMP="C:\Users\salam6\AppData\Local\Temp" TMP="C:\Users\salam6\AppData\Local\Temp" UATDATA="C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77" USERDNSDOMAIN="sapient.com" USERDOMAIN="SAPIENT" USERNAME="salam6" USERPROFILE="C:\Users\salam6" VBOX_MSI_INSTALL_PATH="C:\Program Files\Oracle\VirtualBox\" WINDIR="C:\windows"
+12:01:16: Done importing Drupal site.
+12:07:46: iid:f2981111-2719-4c99-af22-1bca06a16671 eid:0 cid:6dfd38a7ac6315f30e0adc0e97359e9a
+12:09:06: acqSshConnection::BasicConnect() free-7230.devcloud.hosting.acquia.com:22
+12:09:09: acqSshConnection::BasicConnect() free-7230.devcloud.hosting.acquia.com:22
+12:09:13: acqSshConnection::Exec() drush8 -r /var/www/html/citi.test/docroot -l default sql-conf --format=json
+12:09:16: Synchronize Acquia Cloud -> Local
+12:09:16: acqCommandSyncCloudSite: Subscription: devcloud:citi, Sync params = (
+  env = test
+  push = false
+  code = false
+  database = true
+  files = false
+  runUpdatePhp = false
+  clearCache = true
+  commitMessage = 
+  modified = [
+  ]
+)
+12:09:16: Syncronize database. Site = (
+  parent = 005B1B58
+  name = default
+  host = citi.test.dd
+  dbName = citi_test
+  dbPrefix = (
+    cloudConnected = [
+      default = 
+    ]
+  )
+  enabled = true
+   = true
+)
+12:09:16: Synchronizing the site database...
+12:09:16: acqSshConnection::BasicConnect() free-7230.devcloud.hosting.acquia.com:22
+12:09:16: Creating sql dump file...
+12:09:18: acqSshConnection::Exec() drush8 --yes --uri=default --root=/var/www/html/citi.test/docroot sql-dump --result-file=/mnt/tmp/citi.test/dev_desktop_citi.sql --gzip
+12:09:21: Transfering sql dump file...
+12:09:21: acqSshConnection::BasicConnect() free-7230.devcloud.hosting.acquia.com:22
+12:09:24: acqSshConnection::SftpTransferFile() Direction:down Local:C:\Users\salam6\AppData\Local\Temp\acqTmp-2018-03-13T12.09.16-0041\dump.sql.gz Remote:/mnt/tmp/citi.test/dev_desktop_citi.sql.gz
+12:09:35: Removing old database...
+12:09:35: mysql connect. host:127.0.0.1 port:33067 user:root
+12:09:35: Run SQL: SHOW DATABASES LIKE 'citi_test'
+12:09:35: mysql connect. host:127.0.0.1 port:33067 user:root
+12:09:35: Run SQL: SHOW DATABASES LIKE 'citi_test'
+12:09:35: Run SQL: DROP DATABASE `citi_test`

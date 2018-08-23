@@ -1,0 +1,1375 @@
+> validate:composer
+Validating composer.json and composer.lock...
+> validate:lint
+Linting PHP files...
+> validate:phpcs
+.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m[31mE[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m  60 / 602 (10%)
+.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m[31mE[0m.[0m[31mE[0m.[0m.[0m 120 / 602 (20%)
+.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m[31mE[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m 180 / 602 (30%)
+.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[31mE[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m[31mE[0m.[0m 240 / 602 (40%)
+.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m[31mE[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m 300 / 602 (50%)
+.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m[33mW[0m[33mW[0m.[0m.[0m[31mE[0m.[0m.[0m[31mE[0m[31mE[0m[31mE[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m[33mW[0m.[0m[31mE[0m.[0m.[0m 360 / 602 (60%)
+[31mE[0m[31mE[0m[31mE[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m 420 / 602 (70%)
+.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m[31mE[0m.[0m.[0m[31mE[0m[31mE[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m 480 / 602 (80%)
+.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m 540 / 602 (90%)
+.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m[33mW[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m.[0m[33mW[0m.[0m.[0m.[0m 600 / 602 (100%)
+.[0m[31mE[0m
+
+
+[1mFILE: ...oot/modules/custom/dsu/components/dsu_c_core/dsu_c_core.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 20 WARNINGS AFFECTING 20 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 17 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 18 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 19 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 20 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 21 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 22 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 23 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 24 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 25 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...croot/modules/custom/dsu/components/dsu_c_core/dsu_c_core.module[0m
+----------------------------------------------------------------------
+[1mFOUND 1 ERROR AND 2 WARNINGS AFFECTING 3 LINES[0m
+----------------------------------------------------------------------
+  3 | [31mERROR[0m   | Missing short description in doc comment
+  8 | [33mWARNING[0m | Format should be "* Implements hook_foo().", "*
+    |         | Implements hook_foo_BAR_ID_bar() for xyz_bar().",, "*
+    |         | Implements hook_foo_BAR_ID_bar() for
+    |         | xyz-bar.html.twig.", "* Implements
+    |         | hook_foo_BAR_ID_bar() for xyz-bar.tpl.php.", or "*
+    |         | Implements hook_foo_BAR_ID_bar() for block
+    |         | templates."
+ 35 | [33mWARNING[0m | Line exceeds 80 characters; contains 82 characters
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ated_solutions_card/dsu_c_dsu_associated_solutions_card.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 5 WARNINGS AFFECTING 5 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...digital_component/dsu_c_dsu_latest_in_digital_component.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 7 WARNINGS AFFECTING 7 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...oot/modules/custom/dsu/components/dsu_c_image/dsu_c_image.module[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE[0m
+----------------------------------------------------------------------
+ 17 | [33mWARNING[0m | Format should be "* Implements hook_foo().", "*
+    |         | Implements hook_foo_BAR_ID_bar() for xyz_bar().",, "*
+    |         | Implements hook_foo_BAR_ID_bar() for
+    |         | xyz-bar.html.twig.", "* Implements
+    |         | hook_foo_BAR_ID_bar() for xyz-bar.tpl.php.", or "*
+    |         | Implements hook_foo_BAR_ID_bar() for block
+    |         | templates."
+----------------------------------------------------------------------
+
+
+[1mFILE: ...su/components/dsu_c_markets_brands/dsu_c_markets_brands.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 8 WARNINGS AFFECTING 8 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...om/dsu/components/dsu_c_sharebuttons/dsu_c_sharebuttons.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 6 WARNINGS AFFECTING 6 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...stom/dsu/components/dsu_c_sharebuttons/dsu_c_sharebuttons.module[0m
+----------------------------------------------------------------------
+[1mFOUND 5 ERRORS AND 6 WARNINGS AFFECTING 11 LINES[0m
+----------------------------------------------------------------------
+   3 | [31mERROR[0m   | Missing short description in doc comment
+  14 | [33mWARNING[0m | Format should be "* Implements hook_foo().", "*
+     |         | Implements hook_foo_BAR_ID_bar() for xyz_bar().",,
+     |         | "* Implements hook_foo_BAR_ID_bar() for
+     |         | xyz-bar.html.twig.", "* Implements
+     |         | hook_foo_BAR_ID_bar() for xyz-bar.tpl.php.", or "*
+     |         | Implements hook_foo_BAR_ID_bar() for block
+     |         | templates."
+  26 | [33mWARNING[0m | Format should be "* Implements hook_foo().", "*
+     |         | Implements hook_foo_BAR_ID_bar() for xyz_bar().",,
+     |         | "* Implements hook_foo_BAR_ID_bar() for
+     |         | xyz-bar.html.twig.", "* Implements
+     |         | hook_foo_BAR_ID_bar() for xyz-bar.tpl.php.", or "*
+     |         | Implements hook_foo_BAR_ID_bar() for block
+     |         | templates."
+ 121 | [33mWARNING[0m | Unused global variable $base_url.
+ 136 | [31mERROR[0m   | Description for the @return value is missing
+ 138 | [31mERROR[0m   | Invalid function name, expected get_social_medias
+     |         | but found getSocialMedias
+ 157 | [33mWARNING[0m | Line exceeds 80 characters; contains 81 characters
+ 159 | [31mERROR[0m   | Invalid function name, expected sort_social_medias
+     |         | but found sortSocialMedias
+ 169 | [33mWARNING[0m | Line exceeds 80 characters; contains 110 characters
+ 185 | [33mWARNING[0m | Line exceeds 80 characters; contains 101 characters
+ 187 | [31mERROR[0m   | Invalid function name, expected
+     |         | social_media_convert_drupal_settings but found
+     |         | social_media_convert_drupalSettings
+----------------------------------------------------------------------
+
+
+[1mFILE: ...c_sharebuttons/src/EventSubscriber/DSUShareButtonsSubscriber.php[0m
+----------------------------------------------------------------------
+[1mFOUND 2 ERRORS AFFECTING 2 LINES[0m
+----------------------------------------------------------------------
+ 40 | [31mERROR[0m | Public method name
+    |       | "DSUShareButtonsSubscriber::pre_executeSocialMedia" is
+    |       | not in lowerCamel format
+ 49 | [31mERROR[0m | Public method name
+    |       | "DSUShareButtonsSubscriber::pre_rednerSocialMedia" is
+    |       | not in lowerCamel format
+----------------------------------------------------------------------
+
+
+[1mFILE: ...om/dsu/components/dsu_c_sideimagetext/dsu_c_sideimagetext.module[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE[0m
+----------------------------------------------------------------------
+ 17 | [33mWARNING[0m | Format should be "* Implements hook_foo().", "*
+    |         | Implements hook_foo_BAR_ID_bar() for xyz_bar().",, "*
+    |         | Implements hook_foo_BAR_ID_bar() for
+    |         | xyz-bar.html.twig.", "* Implements
+    |         | hook_foo_BAR_ID_bar() for xyz-bar.tpl.php.", or "*
+    |         | Implements hook_foo_BAR_ID_bar() for block
+    |         | templates."
+----------------------------------------------------------------------
+
+
+[1mFILE: ...modules/custom/dsu/components/dsu_c_slider/dsu_c_slider.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 11 WARNINGS AFFECTING 11 LINES[0m
+----------------------------------------------------------------------
+  1 | [33mWARNING[0m | Remove "version" from the info file, it will be added
+    |         | by drupal.org packaging automatically
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...t/modules/custom/dsu/components/dsu_c_slider/dsu_c_slider.module[0m
+----------------------------------------------------------------------
+[1mFOUND 1 ERROR AFFECTING 1 LINE[0m
+----------------------------------------------------------------------
+ 3 | [31mERROR[0m | Missing short description in doc comment
+----------------------------------------------------------------------
+
+
+[1mFILE: ...stom/dsu/components/dsu_c_teaserslider/dsu_c_teaserslider.module[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE[0m
+----------------------------------------------------------------------
+ 17 | [33mWARNING[0m | Format should be "* Implements hook_foo().", "*
+    |         | Implements hook_foo_BAR_ID_bar() for xyz_bar().",, "*
+    |         | Implements hook_foo_BAR_ID_bar() for
+    |         | xyz-bar.html.twig.", "* Implements
+    |         | hook_foo_BAR_ID_bar() for xyz-bar.tpl.php.", or "*
+    |         | Implements hook_foo_BAR_ID_bar() for block
+    |         | templates."
+----------------------------------------------------------------------
+
+
+[1mFILE: ...croot/modules/custom/dsu/components/dsu_c_text/dsu_c_text.module[0m
+----------------------------------------------------------------------
+[1mFOUND 9 ERRORS AND 1 WARNING AFFECTING 9 LINES[0m
+----------------------------------------------------------------------
+ 14 | [31mERROR[0m   | [x] Expected 1 space after IF keyword; 0 found
+ 15 | [31mERROR[0m   | [x] Line indented incorrectly; expected 4 spaces,
+    |         |     found 3
+ 15 | [31mERROR[0m   | [x] Expected 1 space after IF keyword; 0 found
+ 17 | [31mERROR[0m   | [x] Expected 1 space after IF keyword; 0 found
+ 21 | [31mERROR[0m   | [x] Expected 1 space after IF keyword; 0 found
+ 22 | [31mERROR[0m   | [x] Expected 1 space after IF keyword; 0 found
+ 26 | [31mERROR[0m   | [x] Namespaced classes/interfaces/traits should be
+    |         |     referenced with use statements
+ 27 | [31mERROR[0m   | [x] Namespaced classes/interfaces/traits should be
+    |         |     referenced with use statements
+ 33 | [31mERROR[0m   | [x] Closing brace indented incorrectly; expected 3
+    |         |     spaces, found 4
+ 38 | [33mWARNING[0m | [ ] Format should be "* Implements hook_foo().", "*
+    |         |     Implements hook_foo_BAR_ID_bar() for
+    |         |     xyz_bar().",, "* Implements hook_foo_BAR_ID_bar()
+    |         |     for xyz-bar.html.twig.", "* Implements
+    |         |     hook_foo_BAR_ID_bar() for xyz-bar.tpl.php.", or
+    |         |     "* Implements hook_foo_BAR_ID_bar() for block
+    |         |     templates."
+----------------------------------------------------------------------
+[1mPHPCBF CAN FIX THE 9 MARKED SNIFF VIOLATIONS AUTOMATICALLY[0m
+----------------------------------------------------------------------
+
+
+[1mFILE: ...m/dsu/dsu_additional_resources/dsu_additional_resources.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 8 WARNINGS AFFECTING 8 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: .../dsu/docroot/modules/custom/dsu/dsu_article/dsu_article.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 31 WARNINGS AFFECTING 31 LINES[0m
+----------------------------------------------------------------------
+  1 | [33mWARNING[0m | Remove "version" from the info file, it will be added
+    |         | by drupal.org packaging automatically
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 17 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 18 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 19 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 20 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 21 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 22 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 23 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 24 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 25 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 26 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 27 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 28 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 29 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 30 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 31 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 32 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 33 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 34 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 35 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...odules/custom/dsu/dsu_card_component/dsu_card_component.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 11 WARNINGS AFFECTING 11 LINES[0m
+----------------------------------------------------------------------
+  5 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: .../www/dsu/docroot/modules/custom/dsu/dsu_common/dsu_common.module[0m
+----------------------------------------------------------------------
+[1mFOUND 1 ERROR AND 2 WARNINGS AFFECTING 2 LINES[0m
+----------------------------------------------------------------------
+  20 | [33mWARNING[0m | Translatable strings must not begin or end with
+     |         | white spaces, use placeholders with t() for
+     |         | variables
+  20 | [33mWARNING[0m | Translatable strings must not begin or end with
+     |         | white spaces, use placeholders with t() for
+     |         | variables
+ 105 | [31mERROR[0m   | Doc comment is empty
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ar/www/dsu/docroot/modules/custom/dsu/dsu_core/dsu_core.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 23 WARNINGS AFFECTING 23 LINES[0m
+----------------------------------------------------------------------
+  1 | [33mWARNING[0m | Remove "version" from the info file, it will be added
+    |         | by drupal.org packaging automatically
+  5 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 17 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 18 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 19 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 20 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 21 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 22 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 23 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 24 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 25 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 26 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...root/modules/custom/dsu/dsu_c_accordion/dsu_c_accordion.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 7 WARNINGS AFFECTING 7 LINES[0m
+----------------------------------------------------------------------
+  1 | [33mWARNING[0m | Remove "version" from the info file, it will be added
+    |         | by drupal.org packaging automatically
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ules/custom/dsu/dsu_c_tabbedcontent/dsu_c_tabbedcontent.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 9 WARNINGS AFFECTING 9 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...odules/custom/dsu/dsu_c_tabbedcontent/dsu_c_tabbedcontent.module[0m
+----------------------------------------------------------------------
+[1mFOUND 1 ERROR AND 2 WARNINGS AFFECTING 3 LINES[0m
+----------------------------------------------------------------------
+  3 | [31mERROR[0m   | Missing short description in doc comment
+  8 | [33mWARNING[0m | Format should be "* Implements hook_foo().", "*
+    |         | Implements hook_foo_BAR_ID_bar() for xyz_bar().",, "*
+    |         | Implements hook_foo_BAR_ID_bar() for
+    |         | xyz-bar.html.twig.", "* Implements
+    |         | hook_foo_BAR_ID_bar() for xyz-bar.tpl.php.", or "*
+    |         | Implements hook_foo_BAR_ID_bar() for block
+    |         | templates."
+ 34 | [33mWARNING[0m | Unused variable $active_theme.
+----------------------------------------------------------------------
+
+
+[1mFILE: .../www/dsu/docroot/modules/custom/dsu/dsu_event/dsu_event.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 22 WARNINGS AFFECTING 22 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 17 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 18 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 19 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 20 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 21 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 22 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 23 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 24 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 25 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 26 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 27 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...su/docroot/modules/custom/dsu/dsu_ghostery/dsu_ghostery.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE[0m
+----------------------------------------------------------------------
+ 1 | [33mWARNING[0m | Remove "version" from the info file, it will be added
+   |         | by drupal.org packaging automatically
+----------------------------------------------------------------------
+
+
+[1mFILE: ...dsu/docroot/modules/custom/dsu/dsu_ghostery/dsu_ghostery.install[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE[0m
+----------------------------------------------------------------------
+ 20 | [33mWARNING[0m | Unused variable $config.
+----------------------------------------------------------------------
+
+
+[1mFILE: .../dsu/docroot/modules/custom/dsu/dsu_ghostery/dsu_ghostery.module[0m
+----------------------------------------------------------------------
+[1mFOUND 5 ERRORS AND 2 WARNINGS AFFECTING 7 LINES[0m
+----------------------------------------------------------------------
+   3 | [31mERROR[0m   | Missing short description in doc comment
+  11 | [31mERROR[0m   | Doc comment is empty
+  49 | [31mERROR[0m   | Doc comment is empty
+  57 | [33mWARNING[0m | Unused variable $ghosterySnippet.
+  66 | [31mERROR[0m   | Doc comment is empty
+  78 | [31mERROR[0m   | Doc comment is empty
+ 106 | [33mWARNING[0m | Line exceeds 80 characters; contains 121 characters
+----------------------------------------------------------------------
+
+
+[1mFILE: ...dsu/docroot/modules/custom/dsu/dsu_ghostery/includes/scripts.inc[0m
+----------------------------------------------------------------------
+[1mFOUND 3 ERRORS AND 1 WARNING AFFECTING 4 LINES[0m
+----------------------------------------------------------------------
+  3 | [31mERROR[0m   | Missing short description in doc comment
+  7 | [31mERROR[0m   | Doc comment is empty
+ 18 | [31mERROR[0m   | Doc comment is empty
+ 37 | [33mWARNING[0m | Unused variable $key.
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ules/custom/dsu/dsu_ghostery/src/Filter/GhosteryMarkupFilter.php[0m
+----------------------------------------------------------------------
+[1mFOUND 3 ERRORS AFFECTING 3 LINES[0m
+----------------------------------------------------------------------
+  7 | [31mERROR[0m | Doc comment is empty
+ 21 | [31mERROR[0m | Doc comment is empty
+ 28 | [31mERROR[0m | Doc comment is empty
+----------------------------------------------------------------------
+
+
+[1mFILE: ...es/custom/dsu/dsu_ghostery/src/Form/dsu_ghosterySettingsForm.php[0m
+----------------------------------------------------------------------
+[1mFOUND 12 ERRORS AND 6 WARNINGS AFFECTING 17 LINES[0m
+----------------------------------------------------------------------
+   8 | [31mERROR[0m   | Doc comment is empty
+  11 | [31mERROR[0m   | Class name must begin with a capital letter
+  11 | [31mERROR[0m   | Class name must use UpperCamel naming without
+     |         | underscores
+  16 | [31mERROR[0m   | Doc comment is empty
+  23 | [31mERROR[0m   | Doc comment is empty
+  30 | [31mERROR[0m   | Doc comment is empty
+  54 | [31mERROR[0m   | If the line declaring an array spans longer than 80
+     |         | characters, each element should be broken into its
+     |         | own line
+ 115 | [31mERROR[0m   | Doc comment is empty
+ 154 | [31mERROR[0m   | Doc comment is empty
+ 182 | [31mERROR[0m   | Doc comment is empty
+ 192 | [33mWARNING[0m | t() calls should be avoided in classes, use
+     |         | dependency injection and $this->t() instead
+ 195 | [33mWARNING[0m | t() calls should be avoided in classes, use
+     |         | dependency injection and $this->t() instead
+ 196 | [33mWARNING[0m | \Drupal calls should be avoided in classes, use
+     |         | dependency injection instead
+ 201 | [31mERROR[0m   | Doc comment is empty
+ 204 | [31mERROR[0m   | Public method name
+     |         | "dsu_ghosterySettingsForm::dsu_ghostery_install" is
+     |         | not in lowerCamel format
+ 205 | [33mWARNING[0m | \Drupal calls should be avoided in classes, use
+     |         | dependency injection instead
+ 206 | [33mWARNING[0m | \Drupal calls should be avoided in classes, use
+     |         | dependency injection instead
+ 208 | [33mWARNING[0m | t() calls should be avoided in classes, use
+     |         | dependency injection and $this->t() instead
+----------------------------------------------------------------------
+
+
+[1mFILE: ...st_in_digital_component/dsu_latest_in_digital_component.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 16 WARNINGS AFFECTING 16 LINES[0m
+----------------------------------------------------------------------
+  5 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 17 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 18 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 19 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 20 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ocroot/modules/custom/dsu/dsu_multitheme/dsu_multitheme.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE[0m
+----------------------------------------------------------------------
+ 1 | [33mWARNING[0m | Remove "version" from the info file, it will be added
+   |         | by drupal.org packaging automatically
+----------------------------------------------------------------------
+
+
+[1mFILE: .../docroot/modules/custom/dsu/dsu_multitheme/dsu_multitheme.module[0m
+----------------------------------------------------------------------
+[1mFOUND 1 ERROR AFFECTING 1 LINE[0m
+----------------------------------------------------------------------
+ 3 | [31mERROR[0m | Missing short description in doc comment
+----------------------------------------------------------------------
+
+
+[1mFILE: .../dsu_multitheme/src/Form/MultipleThemeNegotiatorSettingsForm.php[0m
+----------------------------------------------------------------------
+[1mFOUND 3 ERRORS AND 3 WARNINGS AFFECTING 6 LINES[0m
+----------------------------------------------------------------------
+  81 | [33mWARNING[0m | Only string literals should be passed to t() where
+     |         | possible
+ 104 | [33mWARNING[0m | Only string literals should be passed to t() where
+     |         | possible
+ 114 | [33mWARNING[0m | Possible useless method overriding detected
+ 157 | [31mERROR[0m   | Doc comment is empty
+ 167 | [31mERROR[0m   | Doc comment is empty
+ 170 | [31mERROR[0m   | Private method name
+     |         | "MultipleThemeNegotiatorSettingsForm::IsNullOrEmptyString"
+     |         | is not in lowerCamel format
+----------------------------------------------------------------------
+
+
+[1mFILE: .../custom/dsu/dsu_multitheme/src/Theme/MultipleThemeNegotiator.php[0m
+----------------------------------------------------------------------
+[1mFOUND 13 ERRORS AND 2 WARNINGS AFFECTING 15 LINES[0m
+----------------------------------------------------------------------
+  13 | [31mERROR[0m   | Doc comment is empty
+  18 | [31mERROR[0m   | Missing short description in doc comment
+  22 | [31mERROR[0m   | Missing @var tag in member variable comment
+  30 | [31mERROR[0m   | Doc comment is empty
+  41 | [31mERROR[0m   | Doc comment is empty
+  54 | [31mERROR[0m   | Doc comment is empty
+  64 | [31mERROR[0m   | Missing short description in doc comment
+  65 | [31mERROR[0m   | Missing parameter comment
+  66 | [31mERROR[0m   | Description for the @return value is missing
+  77 | [31mERROR[0m   | Missing parameter comment
+  79 | [31mERROR[0m   | Description for the @return value is missing
+  93 | [33mWARNING[0m | Line exceeds 80 characters; contains 106 characters
+ 103 | [31mERROR[0m   | Inline doc block comments are not allowed; use "/*
+     |         | Comment */" or "// Comment" instead
+ 104 | [33mWARNING[0m | \Drupal calls should be avoided in classes, use
+     |         | dependency injection instead
+ 120 | [31mERROR[0m   | Doc comment is empty
+----------------------------------------------------------------------
+
+
+[1mFILE: ...su/dsu_multitheme/tests/src/Unit/MultipleThemeNegotiatorTest.php[0m
+----------------------------------------------------------------------
+[1mFOUND 34 ERRORS AND 7 WARNINGS AFFECTING 37 LINES[0m
+----------------------------------------------------------------------
+   1 | [31mERROR[0m   | [x] The PHP open tag must be followed by exactly one
+     |         |     blank line
+   2 | [31mERROR[0m   | [x] You must use "/**" style comments for a file
+     |         |     comment
+   2 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     namespace Drupal\Tests\dsu_multitheme;" but
+     |         |     found "//namespace Drupal\Tests\dsu_multitheme;"
+   2 | [31mERROR[0m   | [x] Inline comments must start with a capital letter
+   4 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     use Drupal\Core\Routing\RouteMatch;" but found
+     |         |     "//use Drupal\Core\Routing\RouteMatch;"
+   5 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     use
+     |         |     Drupal\dsu_multitheme\Theme\MultipleThemeNegotiator;"
+     |         |     but found "//use
+     |         |     Drupal\dsu_multitheme\Theme\MultipleThemeNegotiator;"
+   6 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     use
+     |         |     Drupal\system\Tests\Routing\MockAliasManager;"
+     |         |     but found "//use
+     |         |     Drupal\system\Tests\Routing\MockAliasManager;"
+   7 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     use Drupal\Tests\UnitTestCase;" but found "//use
+     |         |     Drupal\Tests\UnitTestCase;"
+   8 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     use
+     |         |     Symfony\Cmf\Component\Routing\RouteObjectInterface;"
+     |         |     but found "//use
+     |         |     Symfony\Cmf\Component\Routing\RouteObjectInterface;"
+   9 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     use Symfony\Component\HttpFoundation\Request;"
+     |         |     but found "//use
+     |         |     Symfony\Component\HttpFoundation\Request;"
+  10 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     use Symfony\Component\Routing\Route;" but found
+     |         |     "//use Symfony\Component\Routing\Route;"
+  13 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     /**" but found "///**"
+  19 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     class MultipleThemeNegotiatorTest extends
+     |         |     UnitTestCase {" but found "//class
+     |         |     MultipleThemeNegotiatorTest extends UnitTestCase
+     |         |     {"
+  41 | [33mWARNING[0m | [ ] Line exceeds 80 characters; contains 88
+     |         |     characters
+  47 | [31mERROR[0m   | [ ] Comment indentation error, expected only 2
+     |         |     spaces
+  55 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+  61 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+  64 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+  68 | [33mWARNING[0m | [ ] Line exceeds 80 characters; contains 81
+     |         |     characters
+  69 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+  72 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+  77 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+  80 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+  83 | [33mWARNING[0m | [ ] Line exceeds 80 characters; contains 84
+     |         |     characters
+  84 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+  87 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+ 113 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+ 125 | [31mERROR[0m   | [ ] Comment indentation error, expected only 2
+     |         |     spaces
+ 126 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+ 129 | [31mERROR[0m   | [ ] Comment indentation error, expected only 4
+     |         |     spaces
+ 136 | [31mERROR[0m   | [ ] Comment indentation error, expected only 2
+     |         |     spaces
+ 145 | [31mERROR[0m   | [ ] Comment indentation error, expected only 2
+     |         |     spaces
+ 148 | [33mWARNING[0m | [ ] Line exceeds 80 characters; contains 82
+     |         |     characters
+ 149 | [33mWARNING[0m | [ ] Line exceeds 80 characters; contains 86
+     |         |     characters
+ 155 | [31mERROR[0m   | [ ] Comment indentation error, expected only 2
+     |         |     spaces
+ 162 | [31mERROR[0m   | [ ] Comment indentation error, expected only 2
+     |         |     spaces
+ 167 | [33mWARNING[0m | [ ] Line exceeds 80 characters; contains 89
+     |         |     characters
+ 167 | [31mERROR[0m   | [ ] Comment indentation error, expected only 2
+     |         |     spaces
+ 174 | [31mERROR[0m   | [ ] Comment indentation error, expected only 2
+     |         |     spaces
+ 177 | [33mWARNING[0m | [ ] There must be no blank line following an inline
+     |         |     comment
+ 177 | [31mERROR[0m   | [x] No space found before comment text; expected "//
+     |         |     }" but found "//}"
+----------------------------------------------------------------------
+[1mPHPCBF CAN FIX THE 14 MARKED SNIFF VIOLATIONS AUTOMATICALLY[0m
+----------------------------------------------------------------------
+
+
+[1mFILE: ...u/dsu_popular_post_component/dsu_popular_post_component.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 9 WARNINGS AFFECTING 9 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: .../dsu/docroot/modules/custom/dsu/dsu_product/dsu_product.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 15 WARNINGS AFFECTING 15 LINES[0m
+----------------------------------------------------------------------
+  1 | [33mWARNING[0m | Remove "version" from the info file, it will be added
+    |         | by drupal.org packaging automatically
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 17 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 18 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 19 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...su/docroot/modules/custom/dsu/dsu_security/dsu_security.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 14 WARNINGS AFFECTING 14 LINES[0m
+----------------------------------------------------------------------
+  1 | [33mWARNING[0m | Remove "version" from the info file, it will be added
+    |         | by drupal.org packaging automatically
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 17 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 18 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 19 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 20 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: .../dsu/docroot/modules/custom/dsu/dsu_security/dsu_security.module[0m
+----------------------------------------------------------------------
+[1mFOUND 3 ERRORS AND 1 WARNING AFFECTING 4 LINES[0m
+----------------------------------------------------------------------
+  3 | [31mERROR[0m   | Missing short description in doc comment
+ 27 | [31mERROR[0m   | Doc comment is empty
+ 36 | [31mERROR[0m   | Doc comment is empty
+ 40 | [33mWARNING[0m | Line exceeds 80 characters; contains 86 characters
+----------------------------------------------------------------------
+
+
+[1mFILE: .../dsu_security/src/EventSubscriber/RemoveXGeneratorSubscriber.php[0m
+----------------------------------------------------------------------
+[1mFOUND 4 ERRORS AFFECTING 4 LINES[0m
+----------------------------------------------------------------------
+  9 | [31mERROR[0m | Doc comment is empty
+ 14 | [31mERROR[0m | Doc comment is empty
+ 17 | [31mERROR[0m | Public method name
+    |       | "RemoveXGeneratorSubscriber::RemoveXGenerator" is not
+    |       | in lowerCamel format
+ 22 | [31mERROR[0m | Doc comment is empty
+----------------------------------------------------------------------
+
+
+[1mFILE: ...curity/src/EventSubscriber/UserProfileErrorMessageSubscriber.php[0m
+----------------------------------------------------------------------
+[1mFOUND 4 ERRORS AFFECTING 4 LINES[0m
+----------------------------------------------------------------------
+ 11 | [31mERROR[0m | Doc comment is empty
+ 19 | [31mERROR[0m | Doc comment is empty
+ 22 | [31mERROR[0m | Public method name
+    |       | "UserProfileErrorMessageSubscriber::RespondForbiddenAsNotFound"
+    |       | is not in lowerCamel format
+ 32 | [31mERROR[0m | Doc comment is empty
+----------------------------------------------------------------------
+
+
+[1mFILE: .../dsu/docroot/modules/custom/dsu/dsu_sitemap/dsu_sitemap.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE[0m
+----------------------------------------------------------------------
+ 6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+   |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...su/docroot/modules/custom/dsu/dsu_solution/dsu_solution.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 23 WARNINGS AFFECTING 23 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 17 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 18 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 19 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 20 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 21 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 22 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 23 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 24 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 25 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 26 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 27 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 28 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: .../www/dsu/docroot/modules/custom/dsu/dsu_store/dsu_store.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 9 WARNINGS AFFECTING 9 LINES[0m
+----------------------------------------------------------------------
+  1 | [33mWARNING[0m | Remove "version" from the info file, it will be added
+    |         | by drupal.org packaging automatically
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ules/custom/dsu/dsu_success_stories/dsu_success_stories.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 12 WARNINGS AFFECTING 12 LINES[0m
+----------------------------------------------------------------------
+  5 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...m/dsu/dsu_success_story_slider/dsu_success_story_slider.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 7 WARNINGS AFFECTING 7 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ocroot/modules/custom/dsu/dsu_technology/dsu_technology.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 17 WARNINGS AFFECTING 17 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 17 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 18 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 19 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 20 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 21 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 22 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...odules/custom/dsu/dsu_upcoming_event/dsu_upcoming_event.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 11 WARNINGS AFFECTING 11 LINES[0m
+----------------------------------------------------------------------
+  5 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ules/custom/dsu/dsu_upcoming_events/dsu_upcoming_events.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 9 WARNINGS AFFECTING 9 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ar/www/dsu/docroot/modules/custom/dsu/dsu_user/dsu_user.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES[0m
+----------------------------------------------------------------------
+ 1 | [33mWARNING[0m | Remove "version" from the info file, it will be added
+   |         | by drupal.org packaging automatically
+ 7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+   |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ustom/dsu/dsu_video_and_document/dsu_video_and_document.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 8 WARNINGS AFFECTING 8 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: ...ules/custom/dsu/dsu_video_component/dsu_video_component.info.yml[0m
+----------------------------------------------------------------------
+[1mFOUND 0 ERRORS AND 15 WARNINGS AFFECTING 15 LINES[0m
+----------------------------------------------------------------------
+  6 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  7 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  8 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+  9 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 10 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 11 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 12 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 13 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 14 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 15 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 16 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 17 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 18 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 19 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+ 20 | [33mWARNING[0m | All dependencies must be prefixed with the project
+    |         | name, for example "drupal:"
+----------------------------------------------------------------------
+
+
+[1mFILE: /var/www/dsu/docroot/themes/custom/dsu/dsu.theme[0m
+----------------------------------------------------------------------
+[1mFOUND 14 ERRORS AND 4 WARNINGS AFFECTING 18 LINES[0m
+----------------------------------------------------------------------
+ 115 | [33mWARNING[0m | Format should be "* Implements hook_foo().", "*
+     |         | Implements hook_foo_BAR_ID_bar() for xyz_bar().",,
+     |         | "* Implements hook_foo_BAR_ID_bar() for
+     |         | xyz-bar.html.twig.", "* Implements
+     |         | hook_foo_BAR_ID_bar() for xyz-bar.tpl.php.", or "*
+     |         | Implements hook_foo_BAR_ID_bar() for block
+     |         | templates."
+ 124 | [31mERROR[0m   | Doc comment is empty
+ 278 | [33mWARNING[0m | Line exceeds 80 characters; contains 94 characters
+ 353 | [33mWARNING[0m | Unused variable $l_key.
+ 368 | [31mERROR[0m   | If the line declaring an array spans longer than 80
+     |         | characters, each element should be broken into its
+     |         | own line
+ 383 | [31mERROR[0m   | Doc comment is empty
+ 394 | [31mERROR[0m   | Doc comment is empty
+ 416 | [31mERROR[0m   | Doc comment is empty
+ 456 | [31mERROR[0m   | Doc comment is empty
+ 530 | [33mWARNING[0m | Line exceeds 80 characters; contains 84 characters
+----------------------------------------------------------------------
+
+Time: 4.29 secs; Memory: 22Mb
+
