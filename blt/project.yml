@@ -10,7 +10,7 @@ project:
 git:
   default_branch: master
   remotes:
-    - git@github.com:piyushraiphp/drupaldev.git
+    - git@github.com/piyushraiphp/drupaldev.git
 drush:
   aliases:
     remote: '${project.machine_name}.test'
