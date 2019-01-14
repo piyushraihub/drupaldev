@@ -1,5 +1,5 @@
 # Update the hostname to the local development environment hostname.
-vagrant_hostname: drupaldev.it
+vagrant_hostname: local.drupaldev.com
 vagrant_machine_name: drupaldev
 
 # Set the IP address so it doesn't conflict with other Drupal VM instances.

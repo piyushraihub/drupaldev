@@ -6,7 +6,7 @@ project:
     name: lightnest
   local:
     protocol: http
-    hostname: drupaldev.it
+    hostname: local.drupaldev.com
 git:
   default_branch: master
   remotes:
