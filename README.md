@@ -10,3 +10,11 @@ Steps to install
    - If all folders and files of drupal lightling would not come in docroot folder automatically then run command (comeposer update) again.
 - vagrant up
   - If there would be anything go wrong during provisioning then run command (vagrant -provision)
+  - If you see error like pip installation. Follow below setps:
+         - Run command vagrant ssh after that run below commands
+         -  sudo apt-get install software-properties-common
+            sudo apt-add-repository universe
+            sudo apt-get update
+            sudo apt-get install python-pip
+         - and then exit.
+- Now run again vagrant up .. it will take approx 10-15 minutes after that your setup will be completed.
