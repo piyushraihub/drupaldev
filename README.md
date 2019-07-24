@@ -11,8 +11,9 @@ Steps to install
 - vagrant up
   - If there would be anything go wrong during provisioning then run command (vagrant -provision)
   - If you see error like pip installation. Follow below setps:
-         - Run command vagrant ssh after that run below commands
-         -  sudo apt-get install software-properties-common
+  
+         - vagrant ssh          
+         -  sudo apt-get install software-properties-commo
             sudo apt-add-repository universe
             sudo apt-get update
             sudo apt-get install python-pip
