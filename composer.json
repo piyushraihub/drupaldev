@@ -1,6 +1,6 @@
 {
     "name": "lightnest/lightnest",
-    "description": "The starting point for Citi Content Hub Drupal 8 websites.",
+    "description": "The starting point for Drupal 8 websites.",
     "type": "project",
     "repositories": [
         {
